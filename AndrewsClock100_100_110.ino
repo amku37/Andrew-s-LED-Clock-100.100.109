@@ -1,5 +1,5 @@
 /******************************************************************************************
- *  NeoPixel Digital Clock – Software Vs 100.100.109 
+ *  NeoPixel Digital Clock – Software Vs 100.100.110 
  *  Date: November 16, 2025 
 
  *  Modes:
@@ -149,14 +149,14 @@ void setup() {
   delay(150);
 
   Serial.println(F("\n============================================================="));
-  Serial.println(F("    Hello! Welcome to Andrew's LED Clock Vs 100.100.109"));
+  Serial.println(F("    Hello! Welcome to Andrew's LED Clock Vs 100.100.110"));
   Serial.println(F("           You are going to like this!  ♥"));
   Serial.println(F("============================================================="));
   Serial.println(F("SERIAL COMMANDS (case insensitive):"));
   Serial.println(F("   Time  → show current time"));
   Serial.println(F("   Mode  → show current display mode"));
   Serial.println(F("   Clock → show 12/24 hour format"));
-  Serial.println(F("   source_code_please → secret... (only first 60 sec!)"));
+  Serial.println(F("   source_code_please → Link to Git hub Code ... (only first 60 sec!)"));
   Serial.println(F("=============================================================\n"));
 
   strip.begin();
