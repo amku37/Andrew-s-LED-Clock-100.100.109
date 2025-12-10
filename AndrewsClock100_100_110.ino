@@ -160,7 +160,7 @@ void setup() {
   Serial.println(F("=============================================================\n"));
 
   strip.begin();
-  strip.setBrightness(80);        // ← Gentle glow (change anytime)
+  strip.setBrightness(255);        // ← Gentle glow (change anytime)
   strip.show();
 
   runStartupShow();
